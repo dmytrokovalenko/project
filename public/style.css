@@ -1,0 +1,281 @@
+body {
+  background-color: #EFF5FB;
+}
+
+.page {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 870px;
+  border: 0;
+}
+
+.header {
+  border: 1px solid #EFF5FB;
+  height: 65px;
+  border-bottom: 0;
+}
+
+.main {
+  background-image: url('icons/map.png');
+  border: 1px solid #EFF5FB;
+  height: 930px;
+}
+
+.head {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 26px;
+  height: 39px;
+  font-weight: bold;
+}
+
+.jobup {
+  color: red;
+  font-size: 20px;
+  float: left;
+  width: 130px;
+  padding-top: 20px;
+  height: 45px;
+}
+
+.dashboard,
+.history {
+  float: left;
+  width: 90px;
+}
+
+.profile {
+  float: right;
+  width: 90px;
+}
+
+.tableTask {
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 260px;
+  min-height: 900px;
+  float: left;
+}
+
+.newDescription {
+  float: left;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 200px;
+}
+
+.newDescription input {
+  width: 250px;
+}
+
+.createTask {
+  float: right;
+  width: 393px;
+  height: 930px;
+}
+
+.newTask {
+  background-color: white;
+  border: 1px solid #EFF5FB;
+  border-radius: 3px;
+  color: #2B65EC;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 8px;
+  height: 25px;
+}
+
+.job {
+  background-color: white;
+  border: 1px solid #EFF5FB;
+  border-radius: 5px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.jobDate,
+.jobDescription {
+  height: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.jobDate {
+  color: #6D7B8D;
+  font-size: 14px;
+}
+
+.jobButtons {
+  height: 20px;
+  padding-top: 75px;
+  padding-left: 10px;
+}
+
+.jobButtons button:first-child,
+.newTaskFull button,
+.newTaskDescription button,
+.location button,
+.newDescription button {
+  background-color: #1589FF;
+  border-radius: 5px;
+  color: white;
+  font-size: 11px;
+  height: 25px;
+}
+
+.jobButtons button:last-child {
+  background-color: white;
+  border-radius: 5px;
+  color: #306EFF;
+  font-size: 11px;
+  height: 25px;
+}
+
+.newTaskFull,
+.location,
+.serviceType,
+.serviceTask,
+.newTaskDescription {
+  border: 1px solid #EFF5FB;
+  border-top: 0;
+  border-right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.newTaskFull {
+  background-color: #F2F2F2;
+  height: 170px;
+}
+
+.headers {
+  height: 15px;
+  color: #6D7B8D;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.newTaskFullDescription {
+  height: 60px;
+  padding-top: 5px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.newTaskFullDescription1,
+.newTaskFullDescription2 {
+  float: left;
+}
+
+.newTaskFullDescription2 {
+  margin-left: 5px;
+}
+
+.newTaskFullAddress {
+  background-color: #F2F2F2;
+  height: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 12px;
+}
+
+.newTaskFull button {
+  margin-top: 5px;
+}
+
+.location,
+.newTaskDescription {
+  background-color: white;
+  height: 70px;
+}
+
+.serviceType,
+.serviceTask {
+  background-color: white;
+  height: 150px;
+}
+
+.locationAddress {
+  height: 30px;
+  padding-top: 10px;
+}
+
+.serviceTypeJobs,
+.serviceTaskJobs {
+  height: 120px;
+  border-bottom: 0;
+}
+
+.worker {
+  font-size: 12px;
+  width: 68px;
+  height: 28px;
+  float: left;
+  text-align: center;
+  padding-top: 90px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.serviceTypeJobs .worker:first-child {
+  background-image: url('icons/electrician.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.serviceTypeJobs .worker:nth-child(2) {
+  background-image: url('icons/plumber.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.serviceTypeJobs .worker:nth-child(3) {
+  background-image: url('icons/gardener.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.serviceTypeJobs .worker:nth-child(4) {
+  background-image: url('icons/housekeeper.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.serviceTypeJobs .worker:last-child {
+  background-image: url('icons/cook.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.todo1,
+.todo2 {
+  border: 1px solid white;
+  border-radius: 20px;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  width: 110px;
+  height: 22px;
+  padding-top: 8px;
+}
+
+.todo1 {
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.newTaskDescriptionHeader,
+.locationHeader {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 300px;
+}
+
+.newTaskDescription button,
+.location button {
+  height: 20px;
+}
